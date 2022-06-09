@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: black;
+            margin: 0px;
+        }
+        header {
+            background-color: #d9d50d;
+            padding: 10px;
+        }
+        header > h1 {
+            text-align: center;
+        }
+        nav {
+            background-color: #8f8c014f ;
+            text-align: center;
+            padding: 3px;
+            box-shadow: 1px 1px 1px black;
+        }
+        nav > a {
+            text-decoration: none;
+            color: whitesmoke;
+            font-weight: bold;
+            margin-right: 50px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            color: aqua;
+        }
+        main {
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+        }
+        article {
+            background-color: rgb(221, 220, 156);
+            padding: 5px;
+        }
+        article > aside {
+            background-color: blanchedalmond;
+        }
+        footer {
+            background-color: #d9d50d;
+            color: black;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: aliceblue;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Arroz</a>
+            <a href="#">Pé</a>
+            <a href="#">ahah</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="assuntos">
+
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Noticiaa do Brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique ea molestias consectetur. Eos omnis deleniti veritatis quos voluptas obcaecati? Architecto esse ratione libero quos ipsa dolore nisi, quisquam consectetur sapiente?</p>
+                <aside>Feito pelo pedro</aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por mim</p>
+    </footer>
+
+    <div id="bola"></div>
+</body>
+</html>
